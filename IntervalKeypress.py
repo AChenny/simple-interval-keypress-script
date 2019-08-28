@@ -3,6 +3,8 @@ import time
 
 keyboard = Controller()
 
+print("Welcome.\nClose this window to stop the keyboard inputs.")
+
 while (True):
     time.sleep(5)
     keyboard.press('w')
